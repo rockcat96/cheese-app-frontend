@@ -17,7 +17,7 @@ function Show(props){
                 <input type="input" name="image" placeholder={cheese.image}/>
                 <input type="submit" value={`Update ${cheese.name}`} />
             </Form>
-            <h2>Delete Person</h2>
+            <h2>Delete Cheese</h2>
             <Form action={`/delete/${cheese._id}`} method="post">
                 <input type="submit" value={`Delete ${cheese.name}`} />
             </Form>
